@@ -1,0 +1,17 @@
+{
+  "findings": {
+    "peak_time": "Peak accident hour is 3:00, indicating higher risk around commuting periods.",
+    "high_risk_county": "Dublin has the highest recorded accident count in the analysis window.",
+    "weather_effect": "Average severity during rainy conditions is 1.96 compared with 1.95 in drier conditions.",
+    "recommendation": "Target peak-hour enforcement, dynamic weather warnings, and county-specific traffic calming in hotspot areas."
+  },
+  "model_metrics": {
+    "r2": 0.2171989433205359,
+    "mae": 0.5160448983727892
+  },
+  "figures": {
+    "time_series": "outputs/figures/time_series_accidents.png",
+    "severity_bar": "outputs/figures/accidents_by_severity.png",
+    "correlation": "outputs/figures/correlation_heatmap.png"
+  }
+}
